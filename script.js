@@ -1,8 +1,8 @@
 // Chapter Data based on new NCERT Class 9 Syllabus
 const chapters = [
-    { num: 1, title: "Cell", domain: "Biology", desc: "The fundamental unit of life.", link: "cell.html" },
-    { num: 2, title: "Tissues", domain: "Biology", desc: "Groups of cells working together.", link: "#" },
-    { num: 3, title: "Reproduction", domain: "Biology", desc: "How organisms create offspring.", link: "#" },
+    { num: 1, title: "Matter in Our Surroundings", domain: "Chemistry", desc: "Physical nature of matter.", link: "#" },
+    { num: 2, title: "Cell", domain: "Biology", desc: "The fundamental unit of life.", link: "cell.html" },
+    { num: 3, title: "Tissues in Action", domain: "Biology", desc: "Understanding plant and animal tissues.", link: "tissues.html" },
     { num: 4, title: "Diversity", domain: "Biology", desc: "Variety of living organisms.", link: "#" },
     { num: 5, title: "Exploring Mixtures & Separation", domain: "Chemistry", desc: "Understanding the nature of matter.", link: "#" },
     { num: 6, title: "Structure of an Atom", domain: "Chemistry", desc: "Inside the building blocks.", link: "atom.html" },
