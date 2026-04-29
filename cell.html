@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 1: Cell - The Fundamental Unit of Life</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .content-section {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 5%;
+        }
+
+        .content-card {
+            background: var(--bg-card);
+            border-radius: 20px;
+            padding: 3rem;
+            margin-bottom: 3rem;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .content-card h2 {
+            color: var(--accent-cyan);
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .content-card p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            color: #cbd5e1;
+        }
+
+        .content-card ul {
+            list-style: none;
+            margin-bottom: 1.5rem;
+        }
+
+        .content-card ul li {
+            margin-bottom: 0.8rem;
+            font-size: 1.1rem;
+            color: #cbd5e1;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.8rem;
+        }
+
+        .content-card ul li i {
+            color: #4ade80;
+            margin-top: 0.3rem;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            margin-top: 80px;
+            margin-left: 5%;
+            font-size: 1.1rem;
+            transition: var(--transition);
+        }
+
+        .back-btn:hover {
+            color: var(--accent-cyan);
+        }
+        
+        .chapter-hero {
+            text-align: center;
+            padding: 3rem 5%;
+            margin-bottom: 2rem;
+        }
+        
+        .chapter-hero img {
+            max-width: 100%;
+            height: auto;
+            max-height: 400px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+            border: 1px solid rgba(255,255,255,0.1);
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-atom"></i>Padam kumar <span>Science Classes</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#chapters">All Chapters</a></li>
+        </ul>
+    </nav>
+
+    <a href="index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Back to Chapters</a>
+
+    <div class="chapter-hero">
+        <h1 class="fade-in">Chapter 1: Cell</h1>
+        <p class="fade-in delay-1" style="font-size: 1.2rem; max-width: 600px; margin: 0 auto 2rem auto;">The Fundamental Unit of Life</p>
+        <img src="assets/cell.png" alt="3D illustration of an animal cell" class="fade-in delay-2 floating">
+    </div>
+
+    <div class="content-section">
+        <div class="content-card fade-in">
+            <h2><i class="fa-solid fa-microscope"></i> Introduction</h2>
+            <p>While examining a thin slice of cork in 1665, <strong>Robert Hooke</strong> saw that the cork resembled the structure of a honeycomb consisting of many little compartments. He called these boxes <em>cells</em>. <em>Cell</em> is a Latin word for 'a little room'.</p>
+            <p>The cell is the basic structural and functional unit of life. All living organisms are made up of cells.</p>
+        </div>
+
+        <div class="content-card fade-in">
+            <h2><i class="fa-solid fa-book-medical"></i> The Cell Theory</h2>
+            <p>The cell theory, formulated by Schleiden (1838) and Schwann (1839), states that:</p>
+            <ul>
+                <li><i class="fa-solid fa-check"></i> All plants and animals are composed of cells.</li>
+                <li><i class="fa-solid fa-check"></i> The cell is the basic unit of life.</li>
+            </ul>
+            <p>The theory was further expanded by Virchow (1855) by suggesting that <em>all cells arise from pre-existing cells</em> (Omnis cellula-e-cellula).</p>
+        </div>
+
+        <div class="content-card fade-in">
+            <h2><i class="fa-solid fa-layer-group"></i> Types of Cells</h2>
+            <p>Based on the complexity of their organization, cells are broadly classified into two types:</p>
+            <ul>
+                <li><i class="fa-solid fa-bacterium"></i> <strong>Prokaryotic Cells:</strong> Cells that lack a well-defined nuclear region and membrane-bound organelles (e.g., Bacteria). The undefined nuclear region is called a nucleoid.</li>
+                <li><i class="fa-solid fa-paw"></i> <strong>Eukaryotic Cells:</strong> Cells having a well-defined nucleus and membrane-bound organelles (e.g., Plant and Animal cells).</li>
+            </ul>
+        </div>
+
+        <div class="content-card fade-in">
+            <h2><i class="fa-solid fa-dna"></i> Structural Organization of a Cell</h2>
+            <p>Every cell has three key features:</p>
+            <ul>
+                <li><i class="fa-solid fa-shield-halved"></i> <strong>Plasma Membrane (Cell Membrane):</strong> The outermost covering of the cell that separates the contents of the cell from its external environment. It is selectively permeable.</li>
+                <li><i class="fa-solid fa-circle-dot"></i> <strong>Nucleus:</strong> The "brain" of the cell. It has a double-layered covering called the nuclear membrane. It contains chromosomes, which are visible as rod-shaped structures and contain information for inheritance of features from parents to next generation in the form of DNA.</li>
+                <li><i class="fa-solid fa-water"></i> <strong>Cytoplasm:</strong> The fluid content inside the plasma membrane. It contains many specialized cell organelles.</li>
+            </ul>
+        </div>
+
+        <div class="content-card fade-in">
+            <h2><i class="fa-solid fa-boxes-stacked"></i> Cell Organelles</h2>
+            <p>Important cell organelles include:</p>
+            <ul>
+                <li><i class="fa-solid fa-arrow-right"></i> <strong>Endoplasmic Reticulum (ER):</strong> A large network of membrane-bound tubes and sheets. Rough ER has ribosomes (protein synthesis), while Smooth ER helps in manufacture of fat molecules.</li>
+                <li><i class="fa-solid fa-arrow-right"></i> <strong>Golgi Apparatus:</strong> Consists of a system of membrane-bound vesicles arranged parallel to each other in stacks called cisterns. Involved in storage, modification, and packaging of products in vesicles.</li>
+                <li><i class="fa-solid fa-arrow-right"></i> <strong>Lysosomes:</strong> The "suicide bags" of the cell. They contain powerful digestive enzymes capable of breaking down all organic material.</li>
+                <li><i class="fa-solid fa-arrow-right"></i> <strong>Mitochondria:</strong> The "powerhouses" of the cell. The energy required for various chemical activities is released by mitochondria in the form of ATP.</li>
+                <li><i class="fa-solid fa-arrow-right"></i> <strong>Plastids:</strong> Present only in plant cells. Chloroplasts contain the pigment chlorophyll and are important for photosynthesis.</li>
+                <li><i class="fa-solid fa-arrow-right"></i> <strong>Vacuoles:</strong> Storage sacs for solid or liquid contents. They are small sized in animal cells while plant cells have very large vacuoles.</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo"><i class="fa-solid fa-atom"></i> Padam kumar <span>Science Classes</span></div>
+            <p>&copy; 2026 Class 9 Science Education Portal. Designed for modern learning.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

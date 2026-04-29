@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 7: Atoms and Molecules</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .content-section {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 5%;
+        }
+
+        .content-card {
+            background: var(--bg-card);
+            border-radius: 20px;
+            padding: 3rem;
+            margin-bottom: 3rem;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .content-card h2 {
+            color: var(--accent-cyan);
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .content-card h3 {
+            color: var(--accent-purple);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .content-card p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            color: #cbd5e1;
+        }
+
+        .content-card ul {
+            list-style: none;
+            margin-bottom: 1.5rem;
+        }
+
+        .content-card ul li {
+            margin-bottom: 0.8rem;
+            font-size: 1.1rem;
+            color: #cbd5e1;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.8rem;
+        }
+
+        .content-card ul li i {
+            color: #4ade80;
+            margin-top: 0.3rem;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            margin-top: 80px;
+            margin-left: 5%;
+            font-size: 1.1rem;
+            transition: var(--transition);
+        }
+
+        .back-btn:hover {
+            color: var(--accent-cyan);
+        }
+        
+        .chapter-hero {
+            text-align: center;
+            padding: 3rem 5%;
+            margin-bottom: 2rem;
+        }
+        
+        .chapter-hero img {
+            max-width: 100%;
+            height: auto;
+            max-height: 400px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+            border: 1px solid rgba(255,255,255,0.1);
+            margin-bottom: 2rem;
+        }
+
+        .competency-box {
+            background: rgba(139, 92, 246, 0.1);
+            border-left: 4px solid var(--accent-purple);
+            padding: 1.5rem;
+            border-radius: 0 10px 10px 0;
+            margin-top: 2rem;
+        }
+
+        .example-box {
+            background: rgba(6, 182, 212, 0.1);
+            border-left: 4px solid var(--accent-cyan);
+            padding: 1.5rem;
+            border-radius: 0 10px 10px 0;
+            margin-top: 2rem;
+        }
+
+        .formula-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+
+        @media (max-width: 600px) {
+            .formula-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .formula-card {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .formula-card h4 {
+            color: var(--accent-cyan);
+            margin-bottom: 1rem;
+        }
+
+        .formula-text {
+            font-family: monospace;
+            font-size: 1.5rem;
+            color: var(--text-primary);
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-atom"></i>Padam kumar <span>Science Classes</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#chapters">All Chapters</a></li>
+        </ul>
+    </nav>
+
+    <a href="index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Back to Chapters</a>
+
+    <div class="chapter-hero">
+        <h1 class="fade-in">Chapter 7: Atoms and Molecules</h1>
+        <p class="fade-in delay-1" style="font-size: 1.2rem; max-width: 600px; margin: 0 auto 2rem auto;">Understanding Chemical Combinations and Laws</p>
+        <img src="assets/molecules.png" alt="3D diagram of molecules" class="fade-in delay-2 floating">
+    </div>
+
+    <div class="content-section">
+        <div class="content-card fade-in">
+            <h2><i class="fa-solid fa-scale-balanced"></i> 1. Laws of Chemical Combination</h2>
+            <p>Chemical reactions are governed by two important fundamental laws established by Antoine L. Lavoisier and Joseph L. Proust:</p>
+            
+            <h3>Law of Conservation of Mass</h3>
+            <p>States that <em>mass can neither be created nor destroyed in a chemical reaction.</em> The total mass of reactants must equal the total mass of the products.</p>
+
+            <h3>Law of Constant Proportions</h3>
+            <p>States that <em>in a chemical substance, the elements are always present in definite proportions by mass.</em> For example, pure water (H₂O) always contains Hydrogen and Oxygen in a mass ratio of 1:8, regardless of where the water came from.</p>
+        </div>
+
+        <div class="content-card fade-in">
+            <h2><i class="fa-solid fa-atom"></i> 2. What is an Atom?</h2>
+            <p>An atom is the smallest building block of all matter. Atoms are very small; they are smaller than anything we can imagine or compare with.</p>
+            <ul>
+                <li><i class="fa-solid fa-ruler-horizontal"></i> <strong>Atomic Radius:</strong> Measured in nanometres (1 nm = 10⁻⁹ m).</li>
+                <li><i class="fa-solid fa-tag"></i> <strong>Symbols:</strong> IUPAC approves names and symbols. Symbols are usually 1 or 2 letters from the element's English or Latin name (e.g., Fe for Iron from <em>Ferrum</em>).</li>
+                <li><i class="fa-solid fa-weight-scale"></i> <strong>Atomic Mass:</strong> One atomic mass unit (u) is a mass unit equal to exactly one-twelfth (1/12th) the mass of one atom of carbon-12.</li>
+            </ul>
+        </div>
+
+        <div class="content-card fade-in">
+            <h2><i class="fa-solid fa-cubes-stacked"></i> 3. What is a Molecule?</h2>
+            <p>A molecule is in general a group of two or more atoms that are chemically bonded together. It is the smallest particle of an element or a compound that is capable of an independent existence.</p>
+            <ul>
+                <li><i class="fa-solid fa-check"></i> <strong>Atomicity:</strong> The number of atoms constituting a molecule. For example, Argon is monoatomic (Ar), Oxygen is diatomic (O₂), and Ozone is triatomic (O₃).</li>
+                <li><i class="fa-solid fa-check"></i> <strong>Molecules of Compounds:</strong> Atoms of different elements join together in definite proportions to form molecules of compounds (like H₂O, CO₂).</li>
+            </ul>
+        </div>
+
+        <div class="content-card fade-in">
+            <h2><i class="fa-solid fa-pen-nib"></i> 4. Writing Chemical Formulae</h2>
+            <p>The chemical formula of a compound is a symbolic representation of its composition. To write it, you must know the <strong>valency</strong> (combining capacity) of the elements or ions.</p>
+            
+            <div class="example-box">
+                <p><strong>The Cross-Over Method:</strong> Write the symbols of the elements, write their valencies below them, and then cross-over the valencies of the combining atoms.</p>
+                
+                <div class="formula-grid">
+                    <div class="formula-card">
+                        <h4>Water</h4>
+                        <p>Hydrogen (H) valency: 1</p>
+                        <p>Oxygen (O) valency: 2</p>
+                        <hr style="border-color: rgba(255,255,255,0.1); margin: 10px 0;">
+                        <p class="formula-text">H₂O₁ &rarr; H₂O</p>
+                    </div>
+                    <div class="formula-card">
+                        <h4>Carbon Dioxide</h4>
+                        <p>Carbon (C) valency: 4</p>
+                        <p>Oxygen (O) valency: 2</p>
+                        <hr style="border-color: rgba(255,255,255,0.1); margin: 10px 0;">
+                        <p class="formula-text">C₂O₄ &rarr; CO₂</p>
+                        <p style="font-size: 0.8rem; color: var(--text-secondary);">(Simplify the ratio 2:4 to 1:2)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-card fade-in">
+            <h2><i class="fa-solid fa-brain"></i> 5. Competency Based Questions</h2>
+            <p>Test your conceptual understanding:</p>
+            
+            <div class="competency-box">
+                <strong>Q1. Applying Conservation of Mass</strong>
+                <p><em>Scenario:</em> In a closed flask, 10g of calcium carbonate (CaCO₃) is heated. It completely decomposes to form 5.6g of calcium oxide (CaO) and a gas (CO₂). How much carbon dioxide gas was produced in this reaction? Explain which law you used to find the answer.</p>
+            </div>
+
+            <div class="competency-box">
+                <strong>Q2. Interpreting Formulae</strong>
+                <p><em>Scenario:</em> A student writes the formula for Aluminium Chloride as AlCl instead of AlCl₃. <br>
+                (a) Identify the error regarding valency.<br>
+                (b) How does this error misrepresent the fundamental Law of Constant Proportions?</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo"><i class="fa-solid fa-atom"></i> Padam kumar <span>Science Classes</span></div>
+            <p>&copy; 2026 Class 9 Science Education Portal. Designed for modern learning.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

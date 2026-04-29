@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 6: Structure of an Atom</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .content-section {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 5%;
+        }
+
+        .content-card {
+            background: var(--bg-card);
+            border-radius: 20px;
+            padding: 3rem;
+            margin-bottom: 3rem;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .content-card h2 {
+            color: var(--accent-cyan);
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .content-card h3 {
+            color: var(--accent-purple);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .content-card p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            color: #cbd5e1;
+        }
+
+        .content-card ul {
+            list-style: none;
+            margin-bottom: 1.5rem;
+        }
+
+        .content-card ul li {
+            margin-bottom: 0.8rem;
+            font-size: 1.1rem;
+            color: #cbd5e1;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.8rem;
+        }
+
+        .content-card ul li i {
+            color: #4ade80;
+            margin-top: 0.3rem;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            margin-top: 80px;
+            margin-left: 5%;
+            font-size: 1.1rem;
+            transition: var(--transition);
+        }
+
+        .back-btn:hover {
+            color: var(--accent-cyan);
+        }
+        
+        .chapter-hero {
+            text-align: center;
+            padding: 3rem 5%;
+            margin-bottom: 2rem;
+        }
+        
+        .chapter-hero img {
+            max-width: 100%;
+            height: auto;
+            max-height: 400px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+            border: 1px solid rgba(255,255,255,0.1);
+            margin-bottom: 2rem;
+        }
+
+        .competency-box {
+            background: rgba(139, 92, 246, 0.1);
+            border-left: 4px solid var(--accent-purple);
+            padding: 1.5rem;
+            border-radius: 0 10px 10px 0;
+            margin-top: 2rem;
+        }
+
+        .example-box {
+            background: rgba(6, 182, 212, 0.1);
+            border-left: 4px solid var(--accent-cyan);
+            padding: 1.5rem;
+            border-radius: 0 10px 10px 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-atom"></i>Padam kumar <span>Science Classes</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#chapters">All Chapters</a></li>
+        </ul>
+    </nav>
+
+    <a href="index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Back to Chapters</a>
+
+    <div class="chapter-hero">
+        <h1 class="fade-in">Chapter 6: Structure of an Atom</h1>
+        <p class="fade-in delay-1" style="font-size: 1.2rem; max-width: 600px; margin: 0 auto 2rem auto;">Inside the Building Blocks of Matter</p>
+        <img src="assets/atom.png" alt="3D diagram of an atom" class="fade-in delay-2 floating">
+    </div>
+
+    <div class="content-section">
+        <div class="content-card fade-in">
+            <h2><i class="fa-solid fa-magnifying-glass-chart"></i> 1. Subatomic Particles</h2>
+            <p>For a long time, atoms were thought to be indivisible. However, experiments in the late 19th and early 20th centuries proved that atoms are made of smaller, subatomic particles:</p>
+            <ul>
+                <li><i class="fa-solid fa-minus"></i> <strong>Electron (e⁻):</strong> Discovered by J.J. Thomson. Negatively charged particle with negligible mass.</li>
+                <li><i class="fa-solid fa-plus"></i> <strong>Proton (p⁺):</strong> Discovered by E. Goldstein. Positively charged particle located in the nucleus. Mass is approximately 2000 times that of an electron.</li>
+                <li><i class="fa-solid fa-circle"></i> <strong>Neutron (n):</strong> Discovered by J. Chadwick. Neutral particle (no charge) with a mass nearly equal to that of a proton. Also located in the nucleus.</li>
+            </ul>
+        </div>
+
+        <div class="content-card fade-in">
+            <h2><i class="fa-solid fa-lightbulb"></i> 2. Models of an Atom</h2>
+            
+            <h3>Thomson's Model of an Atom</h3>
+            <p>Proposed that an atom is a positively charged sphere and electrons are embedded in it like seeds in a watermelon or dry fruits in a pudding.</p>
+
+            <h3>Rutherford's Model of an Atom</h3>
+            <p>Based on his famous <stron>Gold Foil Experiment</stron>, where alpha particles were directed at a thin gold foil. He concluded:</p>
+            <ul>
+                <li><i class="fa-solid fa-check"></i> Most of the space inside the atom is empty.</li>
+                <li><i class="fa-solid fa-check"></i> The positive charge and most of the mass are concentrated in a very small volume at the center, called the <strong>nucleus</strong>.</li>
+                <li><i class="fa-solid fa-check"></i> Electrons revolve around the nucleus in circular paths.</li>
+            </ul>
+
+            <h3>Bohr's Model of an Atom</h3>
+            <p>To overcome the drawbacks of Rutherford's model (stability of revolving electrons), Neils Bohr proposed:</p>
+            <ul>
+                <li><i class="fa-solid fa-check"></i> Electrons revolve in specific, permitted orbits known as <strong>discrete orbits</strong> or shells (K, L, M, N...).</li>
+                <li><i class="fa-solid fa-check"></i> While revolving in these discrete orbits, electrons do not radiate energy.</li>
+            </ul>
+        </div>
+
+        <div class="content-card fade-in">
+            <h2><i class="fa-solid fa-flask"></i> 3. Detailed Example: The Carbon Atom</h2>
+            <div class="example-box">
+                <p><strong>Let's break down the Carbon (C) atom:</strong></p>
+                <ul>
+                    <li><i class="fa-solid fa-arrow-right"></i> <strong>Atomic Number (Z):</strong> 6 (Meaning it has 6 Protons and 6 Electrons)</li>
+                    <li><i class="fa-solid fa-arrow-right"></i> <strong>Mass Number (A):</strong> 12 (Protons + Neutrons = 6 + 6)</li>
+                    <li><i class="fa-solid fa-arrow-right"></i> <strong>Electronic Configuration:</strong> 2, 4. The K-shell can hold a maximum of 2 electrons, and the remaining 4 go into the L-shell.</li>
+                    <li><i class="fa-solid fa-arrow-right"></i> <strong>Valency:</strong> 4. Carbon needs 4 more electrons to complete its octet (L-shell), making it tetravalent.</li>
+                </ul>
+                <p>Because carbon has a valency of 4, it forms the basis of organic chemistry by forming stable bonds with other atoms!</p>
+            </div>
+        </div>
+
+        <div class="content-card fade-in">
+            <h2><i class="fa-solid fa-brain"></i> 4. Competency Based Questions</h2>
+            <p>Test your deeper understanding based on the new curriculum framework:</p>
+            
+            <div class="competency-box">
+                <strong>Q1. Analyzing Experimental Data</strong>
+                <p><em>Scenario:</em> You repeat Rutherford's Gold Foil experiment but use a foil of solid Hydrogen instead of Gold. Will you observe the same results? Why or why not?</p>
+                <p style="color: var(--text-secondary); margin-top: 0.5rem; font-size: 0.95rem;"><strong>Hint:</strong> Think about the mass of a hydrogen nucleus (a single proton) compared to an alpha particle.</p>
+            </div>
+
+            <div class="competency-box">
+                <strong>Q2. Application of Atomic Structure</strong>
+                <p><em>Scenario:</em> Element 'X' has an atomic number of 10 and a mass number of 20. Another Element 'Y' has an atomic number of 10 and a mass number of 22. <br>
+                (a) Predict how Element X and Y will react chemically.<br>
+                (b) What term is used to describe the relationship between X and Y?</p>
+                <p style="color: var(--text-secondary); margin-top: 0.5rem; font-size: 0.95rem;"><strong>Hint:</strong> Look at the electronic configuration of atomic number 10 (Neon). Think about isotopes.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo"><i class="fa-solid fa-atom"></i> Padam kumar <span>Science Classes</span></div>
+            <p>&copy; 2026 Class 9 Science Education Portal. Designed for modern learning.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
